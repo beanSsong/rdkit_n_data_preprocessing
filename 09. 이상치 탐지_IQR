@@ -1,6 +1,5 @@
 %  원본 데이터 백업
 data_iqr = data_uniq;
-data_zscore = data_uniq;
 
 % === IQR 방식 ===
 disp('=== IQR 방식으로 이상치 탐지 및 제거 ===');
