@@ -13,4 +13,4 @@ for i = 1:width(data_zscaled)
     end
 end
 
-disp('✅ 모든 Feature에 대해 Z-score Standardization 완료');
+disp('모든 Feature에 대해 Z-score Standardization 완료');
