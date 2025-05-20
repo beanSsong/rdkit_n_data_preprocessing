@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 # Set file direction
-file_path = './0.smiles_filtered.csv’ 
+file_path = './0.smiles_filtered.csv'
 
 # Load CSV file
 df = pd.read_csv(file_path)
@@ -16,7 +16,7 @@ smiles_list = df['Canonical SMILES']
 # Convert smiles to mol format
 mols = [Chem.MolFromSmiles(smiles) for smiles in smiles_list]
 
-fpgen = AllChem.AllChem.GetAtomPairGenerator()
+fpgen = AllChem.GetAtomPairGenerator()
 
 fingerprint_data = []
 
@@ -35,3 +35,4 @@ output_csv_path = 'rdkit_fingerprint.csv'
 fingerprint_df.to_csv(output_csv_path, index=False)
 
 print(f“Molecular fingerprinter: {output_csv_path}")
+
