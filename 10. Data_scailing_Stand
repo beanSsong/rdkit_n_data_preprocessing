@@ -1,3 +1,6 @@
+% === Standardization (Z-score Normalization) ===
+% 평균 0, 표준편차 1로 정규화
+
 data_zscaled = data_zscore;  % 복사본 생성
 
 for i = 1:width(data_zscaled)
