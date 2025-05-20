@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 
 # Set file direction
-file_path = './0.smiles_filtered.csv'
+file_path = './00.smiles_filtered.csv'
 
 # Load CSV file
 df = pd.read_csv(file_path)
