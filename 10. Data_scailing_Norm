@@ -16,4 +16,4 @@ for i = 1:width(data_minmax)
     end
 end
 
-disp('✅ 모든 Feature에 대해 Min-Max Normalization 완료');
+disp('모든 Feature에 대해 Min-Max Normalization 완료');
