@@ -4,7 +4,7 @@ from rdkit.Chem import Draw
 import pandas as pd
 
 # Set file direction
-file_path = './0.smiles_filtered.csv'
+file_path = './00.smiles_filtered.csv'
 
 # Load CSV file
 df = pd.read_csv(file_path)
