@@ -1,3 +1,5 @@
+#This code is modified from the code by Copyright (c) 2023 Gashaw M. Goshu
+
 from rdkit import Chem
 from rdkit.Chem import AllChem
 
